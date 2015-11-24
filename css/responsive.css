@@ -1,0 +1,6 @@
+/* Note: 16px = 1em */
+@media (max-width: 13.375em) {
+  header div {
+    height: 4em; } }
+
+/*# sourceMappingURL=responsive.css.map */

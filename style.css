@@ -1,0 +1,43 @@
+/*GENERAL*/
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto; /*no top/bottom margin, centre horizontally*/
+}
+
+/*HEADER*/
+
+header div {
+	background-color: yellow;
+	font: 100 1em "Oswald", sans-serif;
+	float: left;
+	padding: 0.5em;
+	width: 16.66666666666667%;
+}
+
+.facts {
+	background-color: red;
+}
+
+.houses {
+	background-color: blue;
+}
+
+.food {
+	background-color: white;
+}
+
+.safety {
+	background-color: gray;
+}
+
+.budget {
+	background-color: green;
+}

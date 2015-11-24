@@ -1,0 +1,90 @@
+/* GENERAL */
+
+$darkblue: #027EC6;
+$lightblue: #CED2FB;
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto; /*no top/bottom margin, centre horizontally*/
+	background-color: #CED2FB;
+}
+
+/* CONTAINER */
+
+.container{
+	margin: 0 auto;
+	a {
+		text-decoration: none;
+		color: white;
+	&:hover {
+		color: #91CAEB;
+	}
+}
+
+	/* HEADER */
+
+	.header {
+		overflow: hidden;
+		div {
+			font-family: "Advent Pro";
+			padding: 1em;
+			float: left;
+	 		width: 16.66666666666667%;
+		}
+		.index {
+			background-color: $darkblue;
+		}
+		.houses {
+			background-color: $darkblue;
+		}
+		.food {
+			background-color: $darkblue;
+		}
+		.safety {
+			background-color: $darkblue;
+		}
+		.budget {
+			background-color: $darkblue;
+		}
+		.media {
+			background-color: $darkblue;
+		}
+	}
+
+	/* CONTENT */
+
+	.content {
+		font: 1em "Lato";
+		overflow: hidden;
+		.subcontent {
+			float: left;
+			padding: 0 1em;
+			background-color: #F5DBFB;
+			width: 28%;
+		}
+		.mainphoto {
+			float: left;
+			width: 72%;
+
+		}
+	}
+
+	/* FOOTER */
+
+	.footer {
+		padding: 2em;
+		ul {
+			li {
+				a {
+					color: #000000;
+					text-decoration: none;
+					font: 1em "Lato";
+				}
+			}
+		}
+	}
+}

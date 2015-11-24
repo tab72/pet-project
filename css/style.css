@@ -1,0 +1,59 @@
+/* GENERAL */
+* {
+  box-sizing: border-box; }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  /*no top/bottom margin, centre horizontally*/
+  background-color: #CED2FB; }
+
+/* CONTAINER */
+.container {
+  margin: 0 auto;
+  /* HEADER */
+  /* CONTENT */
+  /* FOOTER */ }
+  .container a {
+    text-decoration: none;
+    color: white; }
+    .container a:hover {
+      color: #91CAEB; }
+  .container .header {
+    overflow: hidden; }
+    .container .header div {
+      font-family: "Advent Pro";
+      padding: 1em;
+      float: left;
+      width: 16.66666666666667%; }
+    .container .header .index {
+      background-color: #027EC6; }
+    .container .header .houses {
+      background-color: #027EC6; }
+    .container .header .food {
+      background-color: #027EC6; }
+    .container .header .safety {
+      background-color: #027EC6; }
+    .container .header .budget {
+      background-color: #027EC6; }
+    .container .header .media {
+      background-color: #027EC6; }
+  .container .content {
+    font: 1em "Lato";
+    overflow: hidden; }
+    .container .content .subcontent {
+      float: left;
+      padding: 0 1em;
+      background-color: #F5DBFB;
+      width: 28%; }
+    .container .content .mainphoto {
+      float: left;
+      width: 72%; }
+  .container .footer {
+    padding: 2em; }
+    .container .footer ul li a {
+      color: #000000;
+      text-decoration: none;
+      font: 1em "Lato"; }
+
+/*# sourceMappingURL=style.css.map */
