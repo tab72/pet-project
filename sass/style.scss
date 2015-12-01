@@ -1,22 +1,20 @@
-/* GENERAL */
+/* FONTS */
 
 $darkblue: #027EC6;
 $lightblue: #CED2FB;
 
 * {
 	box-sizing: border-box;
-}
-
-.container {
-	width: 80%;
-	margin: 0 auto; /*no top/bottom margin, centre horizontally*/
-	background-color: #CED2FB;
+	font: 1em 'Open Sans';
 }
 
 /* CONTAINER */
 
 .container {
-	margin: 0 auto;
+	overflow: hidden;
+	width: 80%;
+	margin: 0 auto; /* centre horizontally */
+	background-color: $darkblue;
 	a {
 		text-decoration: none;
 		color: white;
@@ -30,46 +28,40 @@ $lightblue: #CED2FB;
 	.header {
 		overflow: hidden;
 		div {
-			font-family: "Advent Pro";
-			padding: 1em;
+			width: 16.66666666666667%;
 			float: left;
-	 		width: 16.66666666666667%;
-		}
-		.index {
+			padding: 1em;
 			background-color: $darkblue;
-		}
-		.houses {
-			background-color: $darkblue;
-		}
-		.food {
-			background-color: $darkblue;
-		}
-		.safety {
-			background-color: $darkblue;
-		}
-		.budget {
-			background-color: $darkblue;
-		}
-		.media {
-			background-color: $darkblue;
+			text-align: center;
+			font-size: 1em;
 		}
 	}
 
 	/* CONTENT */
 
 	.content {
-		font: 1em "Lato";
 		overflow: hidden;
+		background-image:
+			linear-gradient(
+				$darkblue, white
+			);
 		.subcontent {
 			float: left;
 			padding: 0 1em;
-			background-color: #F5DBFB;
-			width: 28%;
+			width: 33.33333333333333%;
+			ul {
+				list-style-type: none;
+				padding: 0;
+				li {
+					border: 0.125em solid #FFF;
+					padding: 0.5em;
+					margin: 0.7em 0;
+				}
+			}
 		}
 		.mainphoto {
 			float: left;
-			width: 72%;
-
+			width: 66.666666666666667%;
 		}
 	}
 
@@ -82,7 +74,6 @@ $lightblue: #CED2FB;
 				a {
 					color: #000000;
 					text-decoration: none;
-					font: 1em "Lato";
 				}
 			}
 		}

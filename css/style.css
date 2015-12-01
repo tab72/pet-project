@@ -1,16 +1,15 @@
-/* GENERAL */
+/* FONTS */
 * {
-  box-sizing: border-box; }
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-  /*no top/bottom margin, centre horizontally*/
-  background-color: #CED2FB; }
+  box-sizing: border-box;
+  font: 1em 'Open Sans'; }
 
 /* CONTAINER */
 .container {
+  overflow: hidden;
+  width: 80%;
   margin: 0 auto;
+  /* centre horizontally */
+  background-color: #027EC6;
   /* HEADER */
   /* CONTENT */
   /* FOOTER */ }
@@ -22,38 +21,33 @@
   .container .header {
     overflow: hidden; }
     .container .header div {
-      font-family: "Advent Pro";
-      padding: 1em;
+      width: 16.66666666666667%;
       float: left;
-      width: 16.66666666666667%; }
-    .container .header .index {
-      background-color: #027EC6; }
-    .container .header .houses {
-      background-color: #027EC6; }
-    .container .header .food {
-      background-color: #027EC6; }
-    .container .header .safety {
-      background-color: #027EC6; }
-    .container .header .budget {
-      background-color: #027EC6; }
-    .container .header .media {
-      background-color: #027EC6; }
+      padding: 1em;
+      background-color: #027EC6;
+      text-align: center;
+      font-size: 1em; }
   .container .content {
-    font: 1em "Lato";
-    overflow: hidden; }
+    overflow: hidden;
+    background-image: linear-gradient(#027EC6, white); }
     .container .content .subcontent {
       float: left;
       padding: 0 1em;
-      background-color: #F5DBFB;
-      width: 28%; }
+      width: 33.33333333333333%; }
+      .container .content .subcontent ul {
+        list-style-type: none;
+        padding: 0; }
+        .container .content .subcontent ul li {
+          border: 0.125em solid #FFF;
+          padding: 0.5em;
+          margin: 0.7em 0; }
     .container .content .mainphoto {
       float: left;
-      width: 72%; }
+      width: 66.666666666666667%; }
   .container .footer {
     padding: 2em; }
     .container .footer ul li a {
       color: #000000;
-      text-decoration: none;
-      font: 1em "Lato"; }
+      text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
