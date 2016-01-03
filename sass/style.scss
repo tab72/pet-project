@@ -1,81 +1,105 @@
-/* FONTS */
-
-$darkblue: #027EC6;
-$lightblue: #CED2FB;
+$basecolor: #2D2C2C;
+$color2: #757577;
+$themeblue: #009CFF;
 
 * {
 	box-sizing: border-box;
 	font: 1em 'Open Sans';
 }
 
-/* CONTAINER */
-
-.container {
-	overflow: hidden;
-	width: 80%;
-	margin: 0 auto; /* centre horizontally */
-	background-color: $darkblue;
-	a {
-		text-decoration: none;
-		color: white;
-	&:hover {
-		color: #91CAEB;
-	}
+a {
+	text-decoration: none;
 }
 
-	/* HEADER */
 
-	.header {
-		overflow: hidden;
-		div {
-			width: 16.66666666666667%;
-			float: left;
-			padding: 1em;
-			background-color: $darkblue;
-			text-align: center;
-			font-size: 1em;
+/* body { */
+	/* margin: 0; */
+
+	/* CONTAINER */
+
+	.container {
+		margin: 0 auto; /* centre horizontally */
+		
+		/* HEADER */
+
+		.header {
+			overflow: hidden;
+			background-color: $basecolor;
+
+			div {
+				width: 50%;
+				float: left;
+				padding: 1em 0.5em;
+				background-color: $basecolor;
+				text-align: center;
+				
+				a {
+					text-decoration: none;
+					color: white;
+					font: 0.95em 'Open Sans';
+				}
+
+				&:hover {
+					background-color: $color2;
+				}
+			}
 		}
-	}
 
-	/* CONTENT */
+		/* CONTENT */
 
-	.content {
-		overflow: hidden;
-		background-image:
-			linear-gradient(
-				$darkblue, white
-			);
-		.subcontent {
-			float: left;
-			padding: 0 1em;
-			width: 33.33333333333333%;
+		.mainphoto {
+			width: 100%;
+			}
+
+		.content {
+			padding: 1em;
+			font-size: 0.9em;
+
+			a {
+				color: $themeblue;
+			}
+
+			p {
+				padding: 0 1em;
+			}
+
 			ul {
-				list-style-type: none;
-				padding: 0;
+				list-style-type: disc;
 				li {
-					border: 0.125em solid #FFF;
 					padding: 0.5em;
 					margin: 0.7em 0;
 				}
 			}
 		}
-		.mainphoto {
-			float: left;
-			width: 66.666666666666667%;
-		}
-	}
 
-	/* FOOTER */
+		/* FOOTER */
 
-	.footer {
-		padding: 2em;
-		ul {
-			li {
-				a {
-					color: #000000;
-					text-decoration: none;
+		.footer {
+			padding: 1em 2em;
+			clear: both;
+			background-color: $basecolor;
+			h1 {
+				font-size: 1em;
+				color: $color2;
+				font-weight: bold;
+			}
+			ul {
+				list-style-type: none;
+				padding: 0;
+				li {
+					a {
+						font-size: 0.9em;
+						color: white;
+						text-decoration: none;
+						&:hover {
+							color: $color2;
+						}
+					}
 				}
 			}
 		}
 	}
-}
+/* } */
+
+/* Note: 16px = 1em */
+/* Initial standard width 960px = 60em */

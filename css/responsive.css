@@ -1,4 +1,23 @@
 /* Note: 16px = 1em */
 /* Initial standard width 960px = 60em */
+@media (min-width: 490px) {
+  .container .header div {
+    width: 25%; } }
+@media (min-width: 550px) {
+  .container .header div a {
+    font-size: 1em; } }
+@media (min-width: 920px) {
+  .container {
+    overflow: hidden; }
+    .container .mainphoto {
+      width: 65%;
+      float: left; }
+    .container .content {
+      width: 35%;
+      float: left; } }
+/* widescreen TV is 1920px * 1080px */
+/* @media (min-width: 1500px) {
+
+} */
 
 /*# sourceMappingURL=responsive.css.map */
