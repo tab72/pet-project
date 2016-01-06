@@ -5,11 +5,16 @@ body .container .clearfix:after {
 body .container #slideshow {
   background-color: #757577; }
   body .container #slideshow .mainphoto {
-    width: 50%;
+    width: 100%;
     height: auto;
-    display: none; }
+    display: none;
+    margin: 0 auto; }
+    body .container #slideshow .mainphoto:hover {
+      cursor: pointer; }
   body .container #slideshow .active {
-    display: Initial !important; }
+    display: block !important; }
+body .container .content p {
+  font-size: 1.3em; }
 
 /* Note: 16px = 1em */
 /* Initial standard width 960px = 60em */

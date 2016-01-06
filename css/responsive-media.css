@@ -13,8 +13,8 @@
       width: 65%;
       float: left; }
       body .container #slideshow .mainphoto {
-        margin: 0 auto;
-        /* not working because of float? */ }
+        width: 80%;
+        float: none; }
     body .container .content {
       width: 35%;
       float: left; } }

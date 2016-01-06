@@ -22,17 +22,25 @@ body {
 		#slideshow {
 			background-color: $color2;
 			.mainphoto {
-				width: 50%;
+				width: 100%;
 				height: auto;
 				display: none;
+				margin: 0 auto;
+
+				&:hover {
+					cursor: pointer;
+				}
+
 			}
 			.active {
-				display: Initial !important;
+				display: block !important;
 				
 			}	
 		}
 		.content {
-
+			p {
+				font-size: 1.3em;	
+			}
 		}
 		.footer {
 

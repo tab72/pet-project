@@ -34,9 +34,10 @@ body {
 			#slideshow {
 				width: 65%;
 				float: left;
-				.mainphoto {
-					margin: 0 auto; /* not working because of float? */
-				}
+					.mainphoto {
+						width: 80%;
+						float: none;
+					}
 				}
 			.content {
 				width: 35%;
