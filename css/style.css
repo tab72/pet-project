@@ -5,63 +5,63 @@
 a {
   text-decoration: none; }
 
-/* body { */
-/* margin: 0; */
-/* CONTAINER */
-.container {
-  margin: 0 auto;
-  /* centre horizontally */
-  /* HEADER */
-  /* CONTENT */
-  /* FOOTER */ }
-  .container .header {
-    overflow: hidden;
-    background-color: #2D2C2C; }
-    .container .header div {
-      width: 50%;
-      float: left;
-      padding: 1em 0.5em;
-      background-color: #2D2C2C;
-      text-align: center; }
-      .container .header div a {
-        text-decoration: none;
-        color: white;
-        font: 0.95em 'Open Sans'; }
-      .container .header div:hover {
-        background-color: #757577; }
-  .container .mainphoto {
-    width: 100%; }
-  .container .content {
-    padding: 1em;
-    font-size: 0.9em; }
-    .container .content a {
-      color: #009CFF; }
-    .container .content p {
-      padding: 0 1em; }
-    .container .content ul {
-      list-style-type: disc; }
-      .container .content ul li {
-        padding: 0.5em;
-        margin: 0.7em 0; }
-  .container .footer {
-    padding: 1em 2em;
-    clear: both;
-    background-color: #2D2C2C; }
-    .container .footer h1 {
-      font-size: 1em;
-      color: #757577;
-      font-weight: bold; }
-    .container .footer ul {
-      list-style-type: none;
-      padding: 0; }
-      .container .footer ul li a {
-        font-size: 0.9em;
-        color: white;
-        text-decoration: none; }
-        .container .footer ul li a:hover {
-          color: #757577; }
+body {
+  margin: 0;
+  /* CONTAINER */ }
+  body .container {
+    margin: 0 auto;
+    /* centre horizontally */
+    /* HEADER */
+    /* CONTENT */
+    /* FOOTER */ }
+    body .container .header {
+      overflow: hidden;
+      background-color: #2D2C2C; }
+      body .container .header div {
+        width: 50%;
+        float: left;
+        padding: 1em 0.5em;
+        background-color: #2D2C2C;
+        text-align: center; }
+        body .container .header div a {
+          text-decoration: none;
+          color: white;
+          font: 0.95em 'Open Sans'; }
+        body .container .header div:hover {
+          background-color: #009CFF; }
+    body .container .mainphoto {
+      width: 100%; }
+    body .container .content {
+      padding: 1em;
+      font-size: 0.9em; }
+      body .container .content a {
+        color: #009CFF;
+        font-weight: bold; }
+      body .container .content p {
+        padding: 0 1em; }
+      body .container .content ul {
+        list-style-type: disc; }
+        body .container .content ul li {
+          padding: 0.5em;
+          margin: 0.7em 0; }
+    body .container .footer {
+      padding: 1em 2em;
+      clear: both;
+      background-color: #2D2C2C; }
+      body .container .footer h1 {
+        font-size: 1em;
+        color: #009CFF;
+        font-weight: bold; }
+      body .container .footer ul {
+        list-style-type: none;
+        padding: 0; }
+        body .container .footer ul li a {
+          font-size: 0.9em;
+          color: white;
+          text-decoration: none; }
+          body .container .footer ul li a:hover {
+            color: #757577; }
 
-/* } */
 /* Note: 16px = 1em */
 /* Initial standard width 960px = 60em */
 

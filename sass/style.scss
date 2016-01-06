@@ -12,8 +12,8 @@ a {
 }
 
 
-/* body { */
-	/* margin: 0; */
+body {
+	margin: 0;
 
 	/* CONTAINER */
 
@@ -40,7 +40,7 @@ a {
 				}
 
 				&:hover {
-					background-color: $color2;
+					background-color: $themeblue;
 				}
 			}
 		}
@@ -57,6 +57,7 @@ a {
 
 			a {
 				color: $themeblue;
+				font-weight: bold;
 			}
 
 			p {
@@ -80,7 +81,7 @@ a {
 			background-color: $basecolor;
 			h1 {
 				font-size: 1em;
-				color: $color2;
+				color: $themeblue;
 				font-weight: bold;
 			}
 			ul {
@@ -99,7 +100,7 @@ a {
 			}
 		}
 	}
-/* } */
+}
 
 /* Note: 16px = 1em */
 /* Initial standard width 960px = 60em */

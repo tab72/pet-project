@@ -1,0 +1,13 @@
+body {
+  /* CONTAINER */ }
+  body .container {
+    /* HEADER */
+    /* CONTENT */
+    /* FOOTER */ }
+    body .container .mainphoto {
+      border: 5em solid #757577; }
+
+/* Note: 16px = 1em */
+/* Initial standard width 960px = 60em */
+
+/*# sourceMappingURL=style-condo.css.map */

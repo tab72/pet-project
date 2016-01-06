@@ -1,0 +1,85 @@
+$basecolor: #2D2C2C;
+$color2: #757577;
+$themeblue: #009CFF;
+
+* {
+	
+}
+
+a {
+
+}
+
+
+body {
+	
+
+	/* CONTAINER */
+
+	.container {
+		
+		
+		/* HEADER */
+
+		.header {
+
+			div {
+
+				a {
+
+				}
+
+				&:hover {
+
+				}
+			}
+		}
+
+		/* CONTENT */
+
+		.mainphoto {
+				border: 5em solid $color2;
+			}
+
+		.content {
+
+			a {
+
+			}
+
+			p {
+
+			}
+
+			ul {
+
+				li {
+
+				}
+			}
+		}
+
+		/* FOOTER */
+
+		.footer {
+
+			h1 {
+
+			}
+			ul {
+
+				li {
+					a {
+
+						&:hover {
+
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Note: 16px = 1em */
+/* Initial standard width 960px = 60em */

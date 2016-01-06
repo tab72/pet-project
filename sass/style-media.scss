@@ -1,0 +1,45 @@
+$basecolor: #2D2C2C;
+$color2: #757577;
+$themeblue: #009CFF;
+
+* {
+	
+}
+
+a {
+
+}
+
+
+body {
+	.container {
+		.clearfix:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		#slideshow {
+			background-color: $color2;
+			.mainphoto {
+				width: 50%;
+				height: auto;
+				display: none;
+			}
+			.active {
+				display: Initial !important;
+				
+			}	
+		}
+		.content {
+
+		}
+		.footer {
+
+		}
+		
+	}
+}
+
+/* Note: 16px = 1em */
+/* Initial standard width 960px = 60em */
