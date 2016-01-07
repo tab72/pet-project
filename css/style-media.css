@@ -3,7 +3,7 @@ body .container .clearfix:after {
   display: table;
   clear: both; }
 body .container #slideshow {
-  background-color: #757577; }
+  background-color: #C8C8C9; }
   body .container #slideshow .mainphoto {
     width: 100%;
     height: auto;
